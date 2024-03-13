@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100dvh;
+  background-color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  height: 250px;
+  background-color: rgb(8, 113, 204);
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+}
+.timer {
+  width: 100%;
+  font-size: 70px;
+  text-align: center;
+  padding: 35px;
+  font-weight: 600;
+  color:#252525;
+}
+.btns {
+  text-align: center;
+}
+.startstop-btn,.reset-btn {
+  margin: 0 30px;
+  border:1px solid #000;
+  border-radius:50%;
+}
+.btns i{
+  font-size: 2rem;
+  padding: 10px;
+  color: azure;
+  width:50px;
+  border-radius:50%;
+  border:1px solid #000;
+}
+.name{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-style: italic;
+}
+#play{
+  background-color: green;
+}
+#reset{
+  background-color: orange;
+}
+#pause{
+  background-color: red;
+}

@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+.container {
+  width: 300px;
+  background-color: #252525;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+#display {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #5a5050;
+  background-color: #252525;
+  color: #ffffff;
+
+  font-size: 40px;
+  text-align: right;
+  padding-right: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+table {
+  width: 100%;
+  margin-left: 5px;
+}
+table td input {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #525151;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 30px;
+  transition: all ease 0.5s;
+}
+.bg-yellow {
+  background-color: rgb(221, 176, 28);
+}
+.bg-grey {
+  background-color: #a0a0a0;
+}
+.zero {
+  width: 90%;
+  border-radius: 30px;
+}
+input:hover,
+input:active {
+  background-color: #5a5050;
+}
+.bg-yellow:active,
+.bg-yellow:hover {
+  background-color: #fff;
+  color: rgb(221, 176, 28);
+}
+.bg-grey:active,
+.bg-grey:hover {
+  background-color: #cecece;
+}
+
+h1 {
+  margin-top: 10px;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  font-size: medium;
+}
